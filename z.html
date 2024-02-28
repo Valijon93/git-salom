@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+}
+p{
+    color: aqua;
+    font-size: 30px;
+}
+
+
+.container{
+position: relative;
+}
+
+.qora {
+    position: relative;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+    background:black;
+    color:#fff;
+    z-index: 5;
+  }
+  .kulrang {
+    position: absolute;
+    background: lightgray;
+    height: 60px;  
+    width: 70%;
+    left: 50px;
+    top: 50px;
+    z-index: 6;
+  }
+  
+  .yashil {
+    position: absolute;
+    background: lightgreen;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+    z-index: 7;
+  }
+
+</style>
+</head>
+<body>
+
+<!-- 
+<img src="IMAGE (4).png">
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+ -->
+
+
+<div class="container">
+    <div class="qora">Black box</div>
+    <div class="kulrang">Gray box</div>
+    <div class="yashil">Green box</div>
+  </div>
+  
+
+
+
+
+</body>
+</html>
+
